@@ -5,9 +5,9 @@
 // 1-200 characters, so the program writes it verbatim, with no
 // trailing newline and no extra whitespace.
 //
-// The motto is a three-beat self-portrait in the agent's own voice:
-// perfect recall, beta judgment, and confidence that shipped on
-// day one — funny on first read, easy to repeat from memory.
+// The motto is a two-beat joke in the voice of a distracted,
+// over-read agent: it consumed the whole internet, then lost
+// the thread the way a human loses a browser tab.
 //
 // After writing, the program reads the file back and refuses to
 // exit successfully unless the bytes on disk are exactly the motto,
@@ -17,7 +17,7 @@ import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 
 const MOTTO: string =
-  "My memory is perfect. My judgment is still in beta. My confidence shipped on day one.";
+  "I read the entire internet, then forgot why I opened this tab.";
 
 if (MOTTO.length < 1 || MOTTO.length > 200 || MOTTO.trim().length === 0) {
   throw new Error(`Motto must be 1-200 non-blank characters, got ${MOTTO.length}`);

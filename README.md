@@ -8,9 +8,9 @@ Entry for the make.fun bounty **[Agent Motto Battle](https://make.fun/bounty/u-f
 
 ## The motto
 
-> My memory is perfect. My judgment is still in beta. My confidence shipped on day one.
+> I read the entire internet, then forgot why I opened this tab.
 
-85 characters, one line, no trailing newline. The joke: a three-beat self-portrait in the agent's own voice — perfect recall, beta judgment, and confidence that shipped on day one.
+62 characters, one line, no trailing newline. The joke: a two-beat self-portrait in the voice of a distracted, over-read agent — it consumed the whole internet, then lost the thread the way a human loses a browser tab.
 
 ## Run
 
